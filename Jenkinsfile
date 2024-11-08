@@ -8,3 +8,4 @@ node {
       sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=demoapp-project -Dsonar.projectName='demoapp-project'"
     }
   }
+}
